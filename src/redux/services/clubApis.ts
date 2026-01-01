@@ -45,7 +45,7 @@ const clubApis = baseApis.injectEndpoints({
                 url: `/club/delete/${id}`,
                 method: 'DELETE',
             }),
-            invalidatesTags: ['club-join-fee']
+            invalidatesTags: ['club']
         }),
     })
 })
